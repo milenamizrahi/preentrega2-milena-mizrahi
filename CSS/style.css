@@ -1,0 +1,145 @@
+/*reset*/
+*{
+  /*Estilos Genericos*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+  }
+/*Estilos Generales*/
+/*Fuente Local*/
+@font-face {
+    font-family: Karla;
+    src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf)
+}
+
+/*Estilos Pagina Index*/
+.navbar{
+background-color: white;
+border: 1px solid;
+padding: 20px 50px 20px 35px;
+position: sticky;
+top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: "inter", sans-serif;
+}
+
+.navbar ul .nav-item{
+padding: 15px;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../media/textura-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.hero-right {
+    width: 50%;
+    border: 1px solid;
+    border-color: black;
+    overflow: hidden;
+
+}
+
+h1.hero-title {
+    font-family: "inter", sans-serif;
+    font-size: 60px;
+    color: whitesmoke;
+    padding: 100px 50px 20px 50px;
+}
+
+p.hero-p {
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 0px 50px 20px 50px;
+       
+}
+
+header .hero-button{
+display: inline-block;
+    font-size: 16px;
+    color: whitesmoke;
+    margin: 0px 50px 100px 50px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.seccion-sobre-mi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-info{
+    width: 500px;
+    margin: 30px 50px 30px 50px;
+}
+
+/*Esto tampoco lo pude aplicar, no se si esta mal la clase en HTML*/
+.content-capsulas{
+    margin: 0 auto;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 20px 50px;
+    font-family: "inter", sans-serif;
+}
+
+/*Estilos Flexbox*/
+
+/*Estilos Pagina Quien soy*/
+
+/*Estilos Pagina Cápsulas*/
+
+/*Estilos Pagina Objetos*/
+
+/*Estilos Pagina Taller*/
+.grid-gallery {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    gap: 20px;
+}
+
+.grid-gallery img{
+    border: 1px solid;
+}
+
+/*Media Queries*/
+@media (max-width:768px){
+    .navbar ul li{
+font-size: 1.2em;
+    }
+}
+
+@media (max-width:480px){
+    
+}
