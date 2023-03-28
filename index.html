@@ -47,6 +47,9 @@
 <div class="hero-left">
     <h1 class="hero-title">Título Principal</h1>
     <p class="hero-p">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    <div>
+    <button type="button" class="btn btn-outline-primary">Conoce el taller</button>
+</div>
     <a class="hero-button" href="./pages/taller.html">Conoce el taller</a>
 </div>
 
@@ -57,28 +60,59 @@
 
 <!--Sección Sobre mi--> 
 <section class="seccion-sobre-mi">
-    <div class="content-info right">
+    <div class="content-info-left">
     <img src="./media/index-sobre-mi.jpg" alt="Imagen de ejemplo">
 </div>
-    <div class="content-info right">
+    <div class="content-info-right">
     <h2>Sobre Mí</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at iste eaque ipsa consequuntur, tempore consequatur harum numquam reprehenderit et voluptate velit beatae cupiditate. Earum cumque facilis molestias, consequatur velit voluptates rem doloremque rerum nostrum exercitationem excepturi laboriosam, sequi nulla?</p>
-<a href="./quien-soy.html">Leer más</a>
+<a class="sobre-mi-button" href="./pages/quien-soy.html">Leer más></a> 
+
 </div>
 </section>
 
 <!--Sección Cápsulas--> 
-<section class="seccion-capsulas">
-    <div class="content-capsulas">
-    <h2>Cápsulas Destacadas</h2>
-    <img src="./media/capsula-1.jpg" alt="Imagen de ejemplo">
-    <img src="./media/capsula-2.jpg" alt="Imagen de ejemplo">
-    <img src="./media/capsula-3.jpg" alt="Imagen de ejemplo">
-</div>
+<section class="content-capsulas">
+<div class="text-capsulas text-center"> 
+    <h2>Cápsulas Destacadas</h2> 
+</div> 
+<div class="cards-capsulas">
+    <div class="row">
+        <div class="col col-md-4">
+            <div class="card text-bg-dark">
+                <img src="../Mizrahi, Milena - Segunda Preentrega/media/capsula-1.jpg" class="card-img" alt="Imagen de ejemplo">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Cápsula 1</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, adipisci?</p>
+                  <a class="capsula-button" href="./pages/capsulas.html">Ver más></a> 
+                </div>
+              </div>
+        </div>
+        <div class="col col-md-4">
+            <div class="card text-bg-dark">
+                <img src="../Mizrahi, Milena - Segunda Preentrega/media/capsula-2.jpg" class="card-img" alt="Imagen de ejemplo">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Cápsula 2</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, adipisci?</p>
+                  <a class="capsula-button" href="./pages/capsulas.html">Ver más></a> 
+                </div>
+              </div>
+            </div>
+              <div class="col col-md-4">
+                <div class="card text-bg-dark">
+                    <img src="../Mizrahi, Milena - Segunda Preentrega/media/capsula-3.jpg" class="card-img" alt="Imagen de ejemplo">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Cápsula 3</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, adipisci?</p>
+                      <a class="capsula-button" href="./pages/capsulas.html">Ver más></a> 
+                    </div>
+                  </div>             
+    </div>
+    </div>
 </section>
-
+    
 <!--Sección Contactame--> 
-<section class="seccion-contactame">
+<section class="seccion-contactame text-center">
     <h2>Contactame</h2>
     <form action=""></form>
     <div>
@@ -88,7 +122,7 @@
 <div>
    <input type="text" placeholder="Mensaje">
 </div>
-<div><input type="button" value="Enviar"></div>
+<button class="btn btn-outline-success">Enviar</button>
 
 </section>
 </main>
