@@ -92,8 +92,15 @@ display: inline-block;
 
 .btn-outline-primary{
     color: whitesmoke;
+    border-color: whitesmoke;
     border-radius: 0;
     margin: 0px 50px 100px 50px;
+}
+
+.btn-outline-primary:hover{
+    color: black;
+background-color:whitesmoke;
+border-color: black;
 }
 
 /*Estilos Pagina Index - Seccion Sobre Mi*/
@@ -122,13 +129,17 @@ overflow: hidden;
 }
 
 .sobre-mi-button{
-    color: black;
+    color: rgb(14, 14, 14);
     }
+.sobre-mi-button:hover{
+    color: black;
+}
 
 /*Estilos Pagina Index - Capsulas*/
 .text-capsulas{
     margin-bottom: 25px;
 }
+
  .content-capsulas{
         padding-top: 25px;
         padding-bottom: 25px;
@@ -140,7 +151,9 @@ padding-bottom: 50px;
 padding-left: 50px ;
 padding-right: 50px;
 }
-
+.card-img-overlay{
+       padding-top: 300px;
+}
 .cards-capsulas .card{
     border-radius: 0;
 }
@@ -149,8 +162,17 @@ padding-right: 50px;
     border-radius: 0;
 }
 
+/*No logre llamar correctamente a la clase para aplicar el hover*/
+.cards-capsulas .card-img img:hover{
+    opacity: .75;
+}
+
 .capsula-button{
     color: whitesmoke;
+}
+
+.capsula-button:hover{
+    color: white;
 }
 
 /*Estilos Pagina Index - Contactame*/
@@ -160,6 +182,16 @@ color: whitesmoke;
 padding: 50px;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+.btn-outline-success{
+    border-color: whitesmoke;
+}
+
+.btn-outline-success:hover{
+    border-color: black;
+    color: black;
+background-color: whitesmoke;
 }
 
 /*Estilos Footer*/
@@ -181,6 +213,13 @@ border-radius: 0;
 /*Estilos Pagina Quien soy*/
 
 /*Estilos Pagina Cápsulas*/
+.text-capsulas .p-capsulas{
+margin: 30px 200px;
+}
+
+.text-capsulas h1{
+    text-align: center;
+}
 
 /*Estilos Pagina Objetos*/
 
