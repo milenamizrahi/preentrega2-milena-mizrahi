@@ -36,10 +36,20 @@ top: 0;
 
 .navbar ul .nav-item{
 padding: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
 }
 
 .nav-item a{
     color: black;
+}
+
+.nav-item:hover{
+border: 1px solid;
+}
+
+#check-menu, label.menu{
+    display: none;
 }
 
 /*Estilos Pagina Index - Hero*/
@@ -172,7 +182,7 @@ display: flex;
 }
 
 /*No logre llamar correctamente a la clase para aplicar el hover*/
-.cards-capsulas .card-img img:hover{
+.card-img img:hover{
     opacity: .75;
 }
 
@@ -295,6 +305,31 @@ display: block;
 
 .footer-container{
     width: 100%;
+}
+
+@media screen and (max-width:600px){
+    .navbar ul{
+        display: none;
+        position: absolute;
+        height: 200vh;
+        top: 109px;
+        height: 200px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        border: 1px solid;
+        padding:  0px;
+    }
+    label.menu{
+display:block;
+font-size: 1.7em;
+cursor: pointer;
+    }
+
+    #check-menu:checked ~ul{
+display: block;
+    }
 }
 
 @media (max-width:480px){
