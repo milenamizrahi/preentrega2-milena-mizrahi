@@ -1,0 +1,142 @@
+/*Media Queries Index*/
+@media (max-width:768px){
+    .navbar ul li{
+font-size: 1em;
+    }
+
+ .hero{
+    background-image: url(../media/imagen-principal.jpg);
+ }   
+
+ .hero-left{
+    width: 100%;
+ }
+
+.hero-left .hero-title{
+    font-size: 2.5em;
+    display: block;
+width: 100%;
+}
+
+.hero-left .hero-p{
+    font-size: 1.3em;
+    display: block;
+    width: 100%;
+}
+
+.hero-right{
+    display: none;
+}
+
+.content-info-left{
+    height: 350px;
+    width: 50%;
+}
+
+.content-info-right{
+width: 50%;
+display: block;
+}
+
+    .p-capsulas p{
+        display: block;
+        width: 100%;    
+        }
+}
+
+.footer-container{
+    width: 100%;
+}
+
+@media screen and (max-width:600px){
+    .navbar ul{
+        display: none;
+        position: absolute;
+        height: 200vh;
+        top: 109px;
+        height: 200px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        border: 1px solid;
+        padding:  0px;
+    }
+    label.menu{
+display:block;
+font-size: 1.7em;
+cursor: pointer;
+    }
+
+    #check-menu:checked ~ul{
+display: block;
+    }
+}
+
+@media (max-width:480px){
+    .hero{
+        background-image: url(../media/imagen-principal.jpg);
+     }   
+     .hero-left{
+        width: 100%;
+     }
+    .hero-left .hero-title{
+        font-size: 2.5em;
+        display: block;
+    }
+    
+    .hero-left .hero-p{
+        font-size: 1.3em;
+        display: block;
+        width: 100%;
+    }
+
+    .seccion-sobre-mi{
+        display: block;
+        width: 100%;
+    }
+
+    .content-info-left{
+        width: 100%;
+    }
+
+    .content-info-right{
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    /*No logre llamar correctamente a la clase y aunque son cards se bootstrap no se adaptan solas, mi idea era que aparezcan todas en 1 columna */
+    .col .col-md-4{
+        display: block;
+        width: 100%;
+    }
+
+    .card-img-overlay h5{
+font-size: 1em;
+ }
+
+ .card-img-overlay p {
+    font-size: 0.8em;
+    overflow: hidden;
+     }
+
+.card-img-overlay a {
+    font-size: 0.8em;
+     }
+
+/*Media Queries Pagina Capsulas*/
+/*No logre los parrafos de capsulas ni sacarle el margen derecho */
+.content-capsulas{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+    .p-capsulas {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}

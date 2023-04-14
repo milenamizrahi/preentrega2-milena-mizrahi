@@ -1,0 +1,45 @@
+/*variables*/
+/*reset*/
+* {
+  /*Estilos Genericos*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Estilos Generales*/
+/*Fuente Local*/
+@font-face {
+  font-family: Karla;
+  src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+  font-family: Inter;
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+/*Estilos Pagina Index - Navbar*/
+.navbar {
+  border: 1px solid;
+  padding: 20px 50px 20px 35px;
+  position: sticky;
+  top: 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "inter", sans-serif;
+}
+.navbar ul .nav-item {
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar ul .nav-item a {
+  color: black;
+}
+.navbar ul .nav-item :hover {
+  border: 1px solid;
+}/*# sourceMappingURL=style.css.map */
