@@ -1,6 +1,3 @@
-/*variables*/
-$
-
 /*reset*/
 *{
     /*Estilos Genericos*/
@@ -8,6 +5,7 @@ $
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: "Inter";
     }
   
     a{
@@ -112,14 +110,14 @@ $
     border: 1px solid;
     .content-info-left{
         width: 50%;
-        height: 450px;
+        height: 350px;
         border: 1px solid;
     overflow: hidden;
     }
     .content-info-right{
         width: 50%;
         overflow: hidden;
-        margin: 100px 0px 25px 50px;
+        margin: 25px 0px 25px 50px;
         font-size: 1em;
         h1{
             width: 50%;
@@ -228,4 +226,93 @@ margin: 30px 200px;
     border: 1px solid;
 }
 
-@import "queries"
+@media screen and (max-width:600px){
+    .navbar ul{
+        display: none;
+        position: absolute;
+        height: 200vh;
+        top: 109px;
+        height: 200px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        border: 1px solid;
+        padding:  0px;
+    }
+    label.menu{
+display:block;
+font-size: 1.7em;
+cursor: pointer;
+    }
+
+    #check-menu:checked ~ul{
+display: block;
+    }
+}
+
+@media (max-width:480px){
+    .hero{
+        background-image: url(../media/imagen-principal.jpg);
+     }   
+     .hero-left{
+        width: 100%;
+     }
+    .hero-left .hero-title{
+        font-size: 2.5em;
+        display: block;
+    }
+    
+    .hero-left .hero-p{
+        font-size: 1.3em;
+        display: block;
+        width: 100%;
+    }
+
+    .seccion-sobre-mi{
+        display: block;
+        width: 100%;
+    }
+
+    .content-info-left{
+        width: 100%;
+    }
+
+    .content-info-right{
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .col .col-md-4{
+        display: block;
+        width: 100%;
+    }
+
+    .card-img-overlay h5{
+font-size: 1em;
+ }
+
+ .card-img-overlay p {
+    font-size: 0.8em;
+    overflow: hidden;
+     }
+
+.card-img-overlay a {
+    font-size: 0.8em;
+     }
+
+/*Media Queries Pagina Capsulas*/
+.content-capsulas{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+    .p-capsulas {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
