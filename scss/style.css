@@ -383,11 +383,8 @@ font-size: 1em;
     font-size: 0.8em;
      }
 
-     .card-text{
-       display: none;         
-     }
+    
 /*Media Queries Pagina Capsulas*/
-/*No logre los parrafos de capsulas ni sacarle el margen derecho */
 .content-capsulas{
     display: block;
     width: 100%;

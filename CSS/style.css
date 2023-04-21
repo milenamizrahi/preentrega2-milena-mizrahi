@@ -226,14 +226,15 @@
   /*Estilos Pagina Quien soy*/
   
   /*Estilos Pagina Cápsulas*/
-  .text-capsulas .p-capsulas{
-  margin: 30px 200px;
-  }
-  
+
   .text-capsulas h1{
       text-align: center;
   }
   
+  .p-capsulas{
+    margin: 50px 200px;
+    }
+    
   /*Estilos Pagina Objetos*/
   
   /*Estilos Pagina Taller*/
@@ -305,9 +306,7 @@
       width: 100%;
   }
 
-  .card-img-overlay p {
-    display: none;
-     }
+  
   
   @media screen and (max-width:600px){
       .navbar ul{
@@ -334,9 +333,7 @@
       }
   }
 
-  .card-img-overlay p {
-    display: none;
-     }
+  
   
   @media (max-width:480px){
       .hero{
@@ -381,16 +378,18 @@
   font-size: 1em;
    }
   
-   .card-img-overlay p {
-      display: none;
-       }
+  
   
   .card-img-overlay a {
       font-size: 0.8em;
        }
-      .card-img-overlay .card-text{
-            display: none;    
-       }
+
+       .card-img-overlay p {
+        display: none;
+         }
+       .card-img-overlay .card-text{
+        display: none;    
+   }
   /*Media Queries Pagina Capsulas*/
   .content-capsulas{
       display: block;
