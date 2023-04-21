@@ -150,7 +150,7 @@
         }
         .card-img-overlay{
             display: block;
-            .capsula-button{
+                        .capsula-button{
                 color: whitesmoke;
                 .capsula-button:hover{
                     color: white;
@@ -297,7 +297,9 @@ font-size: 1em;
     font-size: 0.8em;
     overflow: hidden;
      }
-
+.card-text{
+  display: none;              
+}
 .card-img-overlay a {
     font-size: 0.8em;
      }
@@ -311,7 +313,8 @@ font-size: 1em;
 }
     .p-capsulas {
         display: block;
-        width: 100%;
+        position: absolute;
+        width: 400px;
         margin: 0px;
         padding: 0px;
     }
