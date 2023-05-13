@@ -8,7 +8,8 @@
     <meta name="keywords" content="ceramica, objetos, mobiliario, taller, torno">
     <!--Bootstrap-->
 <link rel="stylesheet" href="../CSS/bootstrap.css">
-
+<!--Javascript-->
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
  <!--Styles--> 
  <link rel="stylesheet" href="../CSS/style.css">
 
@@ -46,25 +47,120 @@
      </header>
 
 <main>
+    <section class="content-objetos">
+        <div class="text-objetos">
     <h1>Objetos</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae distinctio sint rem magnam aspernatur. Culpa recusandae temporibus quo voluptates cumque ipsa voluptatum repellendus odio nihil.</p>
-<img src="../media/objetos-principal.jpg" alt="Imagen principal">
-    
+</div>
+<div class="p-objetos">
+    <p>Objetos manufacturados, que representan aspectos de la naturaleza, forman ambientes psíquicos dentro de la galería que reconocen la historia de la cerámica, y al mismo tiempo revelan su estructura practica e interna. Espejos substituyen elementos naturales como el agua y el cielo. Una fotografía a gran escala, en blanco y negro, de la corteza de un árbol enfatiza su estructura gráfica de mapamundi. Estalactita, una escultura estilo araña de luz que combina la fluidez de la cera chorreada con la solidez de la cerámica cuelga del techo del espacio como una acumulación de calcio dentro de una cueva.
+Por otro lado Estalagmita, construida de pasta color blanco lechoso e instalada sobre ruedas como si fuera un mueble en plena mudanza, mantiene el dinamismo visual de una formación natural. Cada escultura es a la vez portátil y al mismo se desplaza dentro de un sitio único.</p>
+</div>
 <!--Galeria--> 
-    <section class="gallery"> 
-<div>
-    <h3>Objeto 1</h3>
-    <img src="../media/objeto-1.jpg" alt="Imagen de objeto">
-</div>
-<div>
-    <h3>Objeto 2</h3>
-    <img src="../media/objeto-2.jpg" alt="Imagen de objeto">
-</div>
-<div>
-    <h3>Objeto 3</h3>
-    <img src="../media/objeto-3.jpg" alt="Imagen de objeto">
-</div>
+    <section class="cards-objetos"> 
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" id="objetos1">
+      <div class="carousel-item active">
+        <img src="../media/objeto-1.jpg" class="d-block w-100" alt="Objeto1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Macetas</h5>
+          <p>Línea Corteza, inspirada en la naturaleza.</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="../media/objeto (2).jpg" class="d-block w-100" alt="Objeto2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Macetas</h5>
+          <p>Línea Corteza, inspirada en la naturaleza.</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="../media/objeto (1).jpg" class="d-block w-100" alt="Objeto3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Macetas</h5>
+          <p>Línea Corteza, inspirada en la naturaleza.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner" id="objetos2">
+      <div class="carousel-item active">
+        <img src="../media/objeto (10).jpg" class="d-block w-100" alt="Objeto1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mobiliario</h5>
+          <p>Línea de Lámparas Crater.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../media/objeto (3).jpg" class="d-block w-100" alt="Objeto2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mobiliario</h5>
+          <p>Línea de Lámparas Crater.</p>
+        </div>
+      </div>
+  </div>
+   
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="objetos3">
+          <div class="carousel-item active">
+            <img src="../media/objeto (5).jpg" class="d-block w-100" alt="Objeto1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vasos y Tazas</h5>
+              <p>Diversas Líneas en creación.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../media/objeto (9).jpg" class="d-block w-100" alt="Objeto2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vasos y Tazas</h5>
+              <p>Diversas Líneas en creación.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../media/objeto (3).jpg" class="d-block w-100" alt="Objeto3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Vasos y Tazas</h5>
+                <p>Diversas Líneas en creación.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
+</section>
 </main>
 
     <!--Footer--> 
@@ -91,7 +187,7 @@
 
     <section class="contact-info"> 
              <span>Dirección:</span>
-        <p>Av. 1234</p>
+        <p>Beruti 3566</p>
         <span>Teléfono:</span>
         <a href="Tel: +541126162222">+541126162222</a>
         <span>Correo:</span>

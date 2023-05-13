@@ -197,7 +197,13 @@ background-size: cover;
         }
 
 /*Estilos Pagina Quien soy*/
-
+.text-quiensoy .p-quiensoy{
+    margin: 30px 200px;
+    }
+    
+    .text-quiensoy h1{
+        text-align: center;
+    }
 /*Estilos Pagina Cápsulas*/
 .text-capsulas .p-capsulas{
 margin: 30px 200px;
@@ -208,7 +214,13 @@ margin: 30px 200px;
 }
 
 /*Estilos Pagina Objetos*/
-
+.text-capsulas .p-capsulas{
+    margin: 30px 200px;
+    }
+    
+    .text-capsulas h1{
+        text-align: center;
+    }
 /*Estilos Pagina Taller*/
 .h1{
     font-family: "inter", sans-serif;

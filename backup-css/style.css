@@ -180,11 +180,6 @@ display: flex;
     border-radius: 0;
 }
 
-/*No logre llamar correctamente a la clase para aplicar el hover*/
-.card-img img:hover{
-    opacity: .75;
-}
-
 .capsula-button{
     color: whitesmoke;
 }

@@ -216,6 +216,7 @@
       border: 1px solid;
       padding: 20px 50px;
       font-family: "inter", sans-serif;
+      color: black;
   }
   
   .btn-outline-success{
@@ -223,8 +224,51 @@
   border-radius: 0;
   }
   
-  /*Estilos Pagina Quien soy*/
-  
+  /*Estilos Pagina Quien soy*/  
+  .content-pageqs{
+    border: 1px solid;
+
+  }  
+    .text-quiensoy h1{
+        text-align: center;
+        margin: 25px 5px;
+    }
+    .p-quiensoy{
+        margin: 50px 200px;
+        }
+
+        .content-quiensoy img{
+            margin: 25px 18%;
+        }
+        .metodologia{
+            border: 1px solid;
+        }
+        .metodologia-cards{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly;
+
+                   }
+        .metodologia-cards .card {
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: black;
+            --bs-card-border-radius: 0rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem;
+            margin-bottom: 50px;
+        }
+        
+        .metodologia-cards .card img{
+            padding: 2rem;
+        }
+.metodologia h3{
+    text-align: center;
+    margin: 25px
+}
   /*Estilos Pagina Cápsulas*/
 
   .text-capsulas h1{
@@ -234,26 +278,65 @@
   .p-capsulas{
     margin: 50px 200px;
     }
-    
-  /*Estilos Pagina Objetos*/
   
+   
+  /*Estilos Pagina Objetos*/
+  .content-objetos{
+    border: 1px solid;
+  }
+  .text-objetos h1{
+    text-align: center;
+    margin: 25px
+}
+
+.p-objetos{
+  margin: 50px 200px;
+  }
+
+  .cards-objetos{
+    width: 75%;
+    margin: 40px 170px; 
+     }
+
   /*Estilos Pagina Taller*/
   .h1{
       font-family: "inter", sans-serif;
   }
   
-  .grid-gallery {
-      display: grid;
-      padding: 50px;
-      grid-template-columns: repeat(3, 200px);
-      grid-template-rows: repeat(4, 200px);
-      gap: 20px;
+  .content-taller{
+    border: 1px solid;
+  }
+  .text-taller h1{
+    text-align: center;
+    margin: 25px
+
+  }
+  .text-taller p{
+    margin: 50px 200px;
+  }
+
+  .seccion-instalaciones{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px
+  
   }
   
-  .grid-gallery img{
-      border: 1px solid;
+  .seccion-instalaciones li{
+    list-style: circle;
   }
-  
+  #taller{
+    height: 450px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .instalaciones-info-left{
+    width: 100%;
+    margin-top: 60px;
+  }
+  .instalaciones-info-right{
+    width: 100%;
+  }
   /*Media Queries Index*/
   @media (max-width:768px){
       .navbar ul li{
