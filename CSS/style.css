@@ -418,7 +418,8 @@
 
   
   
-  @media (max-width:480px){
+  @media (max-width:480px)
+    /*Media Queries Pagina Index*/
       .hero{
           background-image: url(../media/imagen-principal.jpg);
        }   
@@ -449,20 +450,12 @@
           width: 100%;
           margin: 0px;
           margin-top: 20px;
-      }
-  
-      /*No logre llamar correctamente a la clase y aunque son cards se bootstrap no se adaptan solas, mi idea era que aparezcan todas en 1 columna */
-      .col .col-md-4{
-          display: block;
-          width: 100%;
-      }
+      }      
   
       .card-img-overlay h5{
   font-size: 1em;
    }
-  
-  
-  
+     
   .card-img-overlay a {
       font-size: 0.8em;
        }
@@ -473,12 +466,25 @@
        .card-img-overlay .card-text{
         display: none;    
    }
+
+   .enlaces li{
+    font-size: 0.7rem;
+   }
+
+   .contact-info{
+    font-size: 0.7rem;
+    margin-left: 80px;
+   }
+
+   .footer-container{
+    display: flex;
+    justify-content: space-between;
+   }
   /*Media Queries Pagina Capsulas*/
   .content-capsulas{
       display: block;
       width: 100%;
       margin: 0px;
-      padding: 0;
   }
   .text-capsulas{
     margin-top: 20px;
@@ -488,6 +494,59 @@
           margin: 50px;
           padding: 0px;
       }
+      .cards-capsulas{
+        display: block;
+      }
+   /*Media Queries Pagina Objetos*/
+.text-objetos{
+  margin-top: 20px;
+}
+    .p-objetos {
+        display: block;
+        margin: 50px;
+        padding: 0px;
+    }
 
-      
+    .cards-objetos{
+        display: block;
+        margin: 50px;
+        padding: 0px;
+    }
+
+  /*Media Queries Pagina Quien Soy*/
+.text-quiensoy{
+  margin-top: 20px;
+}
+    .p-quiensoy {
+        display: block;
+        margin: 50px;
+        padding: 0px;
+    }
+
+    .image-quiensoy{
+        display: block;
+             width: 75%;
+             margin-bottom: 25px;
+    }
+
+    .metodologia-cards{
+        display: block;
+        margin-left: 85px;
+    }
+  /*Media Queries Pagina Taller*/
+  .text-taller{
+    margin-top: 20px;
   }
+      .p-taller {
+          display: block;
+          margin: 50px;
+          padding: 0px;
+      }
+  
+ .seccion-instalaciones{
+    display: block;
+ }
+
+ .instalaciones-info-left{
+    margin-bottom: 50px;
+ }
